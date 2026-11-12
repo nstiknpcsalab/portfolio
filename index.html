@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MKS | IT Enthusiast Portfolio</title>
+  <meta name="description" content="Portfolio of MKS, an IT enthusiast and CITS trainee (CSA trade) at NSTI Kanpur. Skills, projects, training and certifications." />
+  <meta name="theme-color" content="#3730a3" />
+
+  <!-- Open Graph (link previews) -->
+  <meta property="og:title" content="MKS | IT Enthusiast Portfolio" />
+  <meta property="og:description" content="CITS trainee at NSTI Kanpur. Python, Power BI, MySQL and web projects." />
+  <meta property="og:type" content="website" />
+  <!-- TODO: after hosting, add: <meta property="og:url" content="https://YOUR-USERNAME.github.io/REPO-NAME/" /> -->
+
+  <!-- Favicon: simple inline icon, no extra file needed -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%233730a3'/%3E%3Ctext x='50' y='66' font-size='46' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EM%3C/text%3E%3C/svg%3E" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= HEADER / NAVIGATION ================= -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="logo">MKS<span>.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#training" class="nav-link">Training</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to dark theme" title="Toggle light / dark theme">
+        <span class="icon-moon" aria-hidden="true">&#9790;</span>
+        <span class="icon-sun" aria-hidden="true">&#9728;</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= 1. HOME ================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>MKS</h1>
+          <p class="headline">IT Enthusiast <span class="cursor" aria-hidden="true"></span></p>
+          <p class="intro">
+            CITS trainee at NSTI Kanpur (CSA trade) with hands-on interest in Python,
+            databases and web development. Based in Kanpur and ready to learn and grow in IT.
+          </p>
+          <div class="btn-row">
+            <!-- Resume: put your file at assets/documents/resume.pdf -->
+            <a href="assets/documents/resume.pdf" class="btn btn-primary" id="resumeBtn" download>Download Resume</a>
+            <a href="#projects" class="btn btn-outline">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <div class="photo-frame">
+            <!-- Photo: put your file at assets/images/profile.png -->
+            <img src="assets/images/profile.png" alt="Portrait of MKS" width="320" height="320" data-fallback="initials" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 2. ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container narrow">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-text reveal">
+          <p>
+            I am MKS, an IT enthusiast from Kanpur. I am currently a CITS trainee at NSTI Kanpur
+            in the CSA trade (session 2026&ndash;27), after completing CTS at Government ITI Pandu Nagar.
+          </p>
+          <p>
+            I enjoy working with Python, MySQL, Power BI and Excel, and I built my first complete
+            project, an AI Resume Builder, on my own. I am looking for opportunities to apply my
+            skills, keep learning and grow as an IT professional.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. EDUCATION ================= -->
+    <section class="section alt" id="education">
+      <div class="container narrow">
+        <h2 class="section-title reveal">Education</h2>
+        <ol class="timeline">
+          <!-- To add another qualification, copy one <li> block -->
+          <li class="timeline-item reveal">
+            <span class="badge">Currently pursuing</span>
+            <h3>CITS Trainee &ndash; CSA Trade</h3>
+            <p class="meta">NSTI Kanpur &middot; Session 2026&ndash;27</p>
+          </li>
+          <li class="timeline-item reveal">
+            <h3>CTS</h3>
+            <p class="meta">Government ITI Pandu Nagar &middot; Passing year 2025&ndash;2026</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= 4. SKILLS ================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="card-grid">
+          <!-- To add a skill, add another <li> inside the list -->
+          <article class="card reveal">
+            <h3>Core Trade Skills</h3>
+            <ul class="tags">
+              <li>Operating System</li>
+              <li>Programming Languages</li>
+              <li>Database Management</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Computer Skills</h3>
+            <ul class="tags">
+              <li>Advanced Excel</li>
+              <li>Data Visualization</li>
+              <li>PowerPoint</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Software &amp; Tools</h3>
+            <ul class="tags">
+              <li>Python</li>
+              <li>Power BI</li>
+              <li>MySQL</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <h3>Soft Skills</h3>
+            <ul class="tags">
+              <li>Communication</li>
+              <li>Problem Solving</li>
+              <li>Teamwork</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. PROJECTS ================= -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="card-grid projects">
+          <!-- To add a project, copy this whole <article> block -->
+          <article class="card project-card reveal">
+            <div class="project-img">
+              <!-- Project image: put your file at assets/images/project1.png -->
+              <img src="assets/images/project1.png" alt="Screenshot of the AI Resume Builder project" loading="lazy" width="640" height="360" data-fallback="project" data-title="AI Resume Builder" />
+            </div>
+            <div class="project-body">
+              <h3>AI Resume Builder</h3>
+              <p>
+                A web portal where a user uploads their resume and the system generates
+                ready-to-use portfolio code. The code can be downloaded and hosted anywhere.
+              </p>
+              <ul class="tags small" aria-label="Technologies used">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>MySQL</li>
+              </ul>
+              <p class="contribution"><strong>My contribution:</strong> Developed the whole project alone and managed every part of it.</p>
+              <div class="btn-row">
+                <!-- TODO: replace # with your live demo link. Buttons with # are hidden automatically. -->
+                <a href="#" class="btn btn-small btn-primary" data-link="demo" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <!-- TODO: replace # with your GitHub repository link -->
+                <a href="#" class="btn btn-small btn-outline" data-link="code" target="_blank" rel="noopener noreferrer">Source Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. TRAINING ================= -->
+    <section class="section" id="training">
+      <div class="container narrow">
+        <h2 class="section-title reveal">Training</h2>
+        <div class="card training-card reveal">
+          <h3>Trainee &ndash; Naandi Foundation</h3>
+          <p class="meta">Duration: 15 days</p>
+          <p><strong>Skills learned:</strong></p>
+          <ul class="tags">
+            <li>Communication Skills</li>
+            <li>Money Management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. CERTIFICATIONS ================= -->
+    <section class="section alt" id="certifications">
+      <div class="container">
+        <h2 class="section-title reveal">Certifications</h2>
+        <div class="card-grid">
+          <!-- To add a certificate, copy one <article> block -->
+          <article class="card cert-card reveal">
+            <h3>AI Literacy</h3>
+            <p class="meta">IBM SkillsBuild &middot; 2026</p>
+            <div class="btn-row">
+              <a href="https://www.credly.com/badges/0d77320b-ab20-4943-bf15-af8f61b7d419/public_url" class="btn btn-small btn-primary" target="_blank" rel="noopener noreferrer">Verify on Credly</a>
+              <a href="assets/documents/ai-literacy-certificate.pdf" class="btn btn-small btn-outline" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </article>
+          <article class="card cert-card reveal">
+            <h3>CCC (Course on Computer Concepts)</h3>
+            <p class="meta">NIELIT &middot; 2024</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container narrow">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="section-sub reveal">Feel free to reach out for opportunities or just to say hello.</p>
+        <ul class="contact-list reveal">
+          <li><span class="label">Email</span><a href="mailto:mks@gmail.com">mks@gmail.com</a></li>
+          <li><span class="label">Phone</span><a href="tel:+918956124525">8956124525</a></li>
+          <li><span class="label">Location</span><span>Kanpur</span></li>
+          <li><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/nsti-kanpur-csa-lab-139698448/" target="_blank" rel="noopener noreferrer">View LinkedIn profile</a></li>
+          <li><span class="label">GitHub</span><a href="https://github.com/nstiknpcsalab" target="_blank" rel="noopener noreferrer">github.com/nstiknpcsalab</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>&copy; <span id="year">2026</span> MKS. All rights reserved.</p>
+      <a href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
